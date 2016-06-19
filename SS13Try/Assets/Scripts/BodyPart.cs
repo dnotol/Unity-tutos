@@ -1,7 +1,8 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class BodyPart : MonoBehaviour 
+[System.Serializable]
+public class BodyPart 
 {
     #region constants
     #endregion
@@ -11,13 +12,19 @@ public class BodyPart : MonoBehaviour
     #endregion
 
     #region fields
-    #endregion
-
-    #region functions
     public string Name
     {
         get { return m_Name; }
         set { m_Name = value; }
+    }
+    #endregion
+
+    #region functions
+    public BodyPart() { }
+
+    public BodyPart( string name )
+    {
+        Name = name;
     }
     #endregion
 

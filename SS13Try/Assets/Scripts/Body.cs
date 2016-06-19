@@ -18,13 +18,23 @@ public class Body : MonoBehaviour
     #region functions
     public void Start()
     {
-
+        CreateHumanBody();
+        foreach (BodyPart bp in m_BodyParts)
+        {
+            Debug.Log( bp.Name );
+        }
     }
 
     public void Update()
     {
-        foreach (BodyPart bp in m_BodyParts)
-            Debug.Log(bp.name);
+
+    }
+
+    private void CreateHumanBody()
+    {
+        m_BodyParts.Add(new Heart());
+        m_BodyParts.Add(new Liver());
+        m_BodyParts.Add(new Lung());
     }
     #endregion
     

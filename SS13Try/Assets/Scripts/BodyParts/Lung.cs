@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class Heart : BodyPart 
+public class Lung : BodyPart 
 {
     #region constants
     #endregion
@@ -13,7 +13,7 @@ public class Heart : BodyPart
     #endregion
 
     #region functions
-    public Heart() { Name = "Heart"; }
+    public Lung() { Name = "Lung"; }
     #endregion
 
     #region events
