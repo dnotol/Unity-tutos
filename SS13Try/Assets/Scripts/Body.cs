@@ -6,13 +6,16 @@ public class Body : MonoBehaviour
 {
     #region constants
     #endregion
-
+    
     #region variables
     [SerializeField]
     List<BodyPart> m_BodyParts = new List<BodyPart>();
-	#endregion
-	
-	#region functions
+    #endregion
+    
+    #region fields
+    #endregion
+    
+    #region functions
     public void Start()
     {
 
@@ -23,8 +26,8 @@ public class Body : MonoBehaviour
         foreach (BodyPart bp in m_BodyParts)
             Debug.Log(bp.name);
     }
-	#endregion
-	
-	#region events
+    #endregion
+    
+    #region events
 	#endregion
 }

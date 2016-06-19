@@ -8,11 +8,19 @@ public class BodyPart : MonoBehaviour
 
     #region variables
     string m_Name = "GenericBodyPart";
-	#endregion
-	
-	#region functions
-	#endregion
-	
-	#region events
-	#endregion
+    #endregion
+
+    #region fields
+    #endregion
+
+    #region functions
+    public string Name
+    {
+        get { return m_Name; }
+        set { m_Name = value; }
+    }
+    #endregion
+
+    #region events
+    #endregion
 }
