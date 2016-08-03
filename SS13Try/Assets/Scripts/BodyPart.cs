@@ -13,7 +13,6 @@ public abstract class BodyPart
     private string m_Name = "GenericBodyPart";
     private float m_MaxHP = 100;
     private float m_HP = 100;
-
     #endregion
 
     #region fields

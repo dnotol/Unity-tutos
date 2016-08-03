@@ -11,12 +11,12 @@ public class TestManager : MonoBehaviour
     #region variables
     public Text m_Text;
     public Body m_Body;
+    #endregion
+    
+    #region fields
 	#endregion
-	
-	#region fields
-	#endregion
-	
-	#region functions
+    
+    #region functions
     public void Start()
     {
         m_Body.BodyParts[0].DamageReceived += DebugDamage;
@@ -38,8 +38,8 @@ public class TestManager : MonoBehaviour
             _text += " It destroyed it.";
         Debug.Log(_text);
     }
-	#endregion
-	
-	#region events
+    #endregion
+    
+    #region events
 	#endregion
 }
