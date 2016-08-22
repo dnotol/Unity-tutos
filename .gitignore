@@ -1,11 +1,10 @@
 # Ignore everything
-/*
-/*/
+**.vs
+**/Library/**
+**.sln
+**.csproj
 
 # Inverse ignore some stuff
-!**/Assets/
-!**/ProjectSettings/
-!.gitignore
 
 # OS Stuff
 .DS_Store
