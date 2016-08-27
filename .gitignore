@@ -1,6 +1,7 @@
 # Ignore everything
 **.vs
 **/Library/**
+**/Builds/**
 **.sln
 **.csproj
 
